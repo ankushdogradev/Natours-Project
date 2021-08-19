@@ -4,13 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile-sass": "sass --watch sass:css"
   },
   "keywords": [],
   "author": "Ankush Dogra",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^6.0.1"
+    "sass": "^1.38.0"
   },
   "dependencies": {}
 }
